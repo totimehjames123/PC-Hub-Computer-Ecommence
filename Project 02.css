@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+}
+
+/*PAGE 1*/
+.page1{
+    background-image: url(banner.jpg);
+    height: 100vh;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1 .logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: none;
+    border: solid limegreen 4px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.page1 ul{
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+}
+.page1 ul li{
+    list-style-type: none;
+    padding: 0 20px 0 20px ;
+}
+.page1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1 ul li a:hover{
+    color: lime;
+    transition-duration: 0.3s;
+}
+.page1 .desktopComputer{
+    position: absolute;
+    transform: translate(80%, 80%);
+}
+
+.page1 .text{
+    transform: translate(0, 50%);
+    padding: 0;
+}
+.page1 .text :first-child{
+    margin: 0;
+    font-size: 45px;
+}
+.page1 .accessories{
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0;
+}
+.page1 .text .longtext{
+    line-height: 30px;
+}
+
+.page1 .text .BuyNow, .Contact{
+    width: 240px;
+    height: 60px;
+    background: none;
+    color: white;
+    border: white solid 2px;
+    margin-top: 30px;
+}
+.page1 .text .BuyNow:hover, .Contact:hover{
+    color: white;
+    background: lime;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+canvas{
+    width: 40px;
+    height: 30px;
+    background: url(banner.jpg);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.leftCanvas{
+    left: 30px;
+}
+.rightCanvas{
+    right: 30px;
+}
+
+/*PAGE 2*/
+.page2{
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto 0;
+}
+.page2 .container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    height: 70vh;
+}
+.page2 .computer, .page2 .laptop, .page2 .tablet{
+    width: 40%;
+    border: solid thin lime;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.page2 div img{
+    margin: 40px 0 0 0;
+}
+
+/*PAGE 3*/
+.page3{
+    text-align: center;
+    background-color: rgba(245, 238, 238, 0.884);
+    height: 210vh;
+    width: 100%;
+}
+.page3 .header {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid thin lime;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px 0 2px 0;
+}
+.page3 .products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    background: white;
+}
+.page3 .products div{
+    width: 400px;
+}
+.page3 .products div button{
+    background: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin: 50px 0 50px 0;
+}
+.page3 .products div button:hover{
+    color: white;
+    background-color: lime;
+    transition-duration: 0.3s;
+    border: none;
+}
+.seeMore{
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+}
+.page3 .seeMore button{
+    width: 250px;
+    height: 60px;
+    margin: 20px 0 80px 0;
+    background: none;
+    color: lime;
+    border: solid lime;
+}
+.page3 .seeMore button:hover{
+    background-color: lime;
+    transition-duration: 0.3s;
+    color: white;
+}
+
+/*PAGE 4*/
+.page4{
+    height: 90vh;
+    background-color: darkviolet;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.page4 .container{
+    transform: translate(60px, 50%);
+    width: 60%;
+    position: absolute;
+}
+.page4 .container .smallText{
+    font-weight: lighter;
+}
+.page4 .container .bigText{
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+}
+.page4 .container .shopNow{
+    width: 200px;
+    height: 60px;
+    background: lime;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+.page4 .container .shopNow:hover{
+    color: white;
+    background-color: black;
+}
+.page4 img{
+    transform: translate(90%, 50%);
+    position: absolute;
+}
+/*PAGE FOOTER*/
+.footer{
+    height: 80vh;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer div{
+    float: left;
+    width: 25%;
+    margin-top: 100px;
+    line-height: 40px;
+    font-size: 14pt;
+    padding-bottom: 60px;
+}
+.footer div p{
+   margin: 0;
+   padding: 0;
+}
+
+.col1 .logo{
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    width: 85px;
+    height: 85px;
+    border: solid 4px white;
+    border-radius: 100%;
+    margin: auto;
+    margin-left: 50px;
+    font-size: 25pt;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .col4 input{
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.footer .col4 button{
+    width: 160px;
+    height: 50px;
+    color: white;
+    background: limegreen;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14pt;
+}
+.footer .col4 button:hover{
+    background-color: lime;
+}
+.footer hr{
+    width: 90%;
+}
+.footer .p{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.footer ul{
+    display: flex;
+    margin: 40px 0 0 0;
+}
+.footer ul li{
+    text-align: center;
+    margin: 10px;
+    width: 40px;
+    background: white;
+    border-radius: 100%;
+    list-style-type: none;
+}
+.footer ul li a{
+    background: white;
+    color: black;
+}
+.footer ul li a .fa-linkedin-in{
+    background: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
